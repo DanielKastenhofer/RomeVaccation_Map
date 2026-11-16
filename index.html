@@ -229,32 +229,36 @@ var DAYS = [
    {t:'20:00',n:'Da Fortunata Pellegrino',d:'Via del Pellegrino 11. Anfrage läuft, Backup: Roscioli.',ll:[41.89612,12.47167],k:'open',q:'Osteria da Fortunata, Via del Pellegrino 11, Roma',go:['walk',7]},
    home('Abend','')
   ]},
- {id:'so', wd:'So', date:'6.12.', title:'Sonntag, 6. Dezember', sub:'Jüdisches Viertel, Trastevere und Gianicolo',
-  note:'Der ruhigste Tag. Heute ist Gratis-Sonntag in den staatlichen Stätten, Kolosseum und Pantheon sind daher überlaufen.',
+ {id:'so', wd:'So', date:'6.12.', title:'Sonntag, 6. Dezember', sub:'Altstadt, Jüdisches Viertel, Trastevere und Gianicolo',
+  note:'Heute ist Gratis-Sonntag in den staatlichen Stätten, Kolosseum und Pantheon sind daher überlaufen und bleiben außen vor.',
   stops:[
-   home('10:00','Gemütlicher Start, Frühstück in einer Bar.',['walk',2]),
-   {t:'10:45',n:'Largo di Torre Argentina',d:'Tempelruinen, der Ort von Caesars Ermordung und eine Katzenkolonie.',ll:[41.8953,12.4768],q:'Largo di Torre Argentina, Roma',go:['walk',5]},
-   {t:'11:15',n:'Fontana delle Tartarughe',d:'Schildkrötenbrunnen auf der Piazza Mattei.',ll:[41.8938,12.4776],q:'Fontana delle Tartarughe, Roma',go:['walk',3]},
+   home('09:30','Frühstück in einer Bar, dann los.',['walk',10]),
+   {t:'10:00',n:'Piazza Navona',d:'Bei Tageslicht: Weihnachtsmarkt, Vierströmebrunnen, Sant’Agnese in Agone.',ll:[41.8990,12.4731],q:'Piazza Navona, Roma',go:['walk',4]},
+   {t:'10:30',n:'Via dei Coronari',d:'Ruhige Gasse mit Antiquitätenläden.',ll:[41.9008,12.4700],q:'Via dei Coronari, Roma',go:['walk',5]},
+   {t:'11:00',n:'Engelsbrücke',d:'Berninis Engel, dahinter die Engelsburg und der Blick zum Petersdom.',ll:[41.9018,12.4664],q:'Ponte Sant Angelo, Roma',go:['walk',15]},
+   via(41.8992,12.4650),
+   {t:'11:30',n:'Via Giulia',d:'Renaissancestraße fast ohne Verkehr, am Ende der efeubewachsene Arco Farnese.',ll:[41.8943,12.4695],q:'Arco Farnese, Via Giulia, Roma',go:['walk',11]},
+   {t:'12:15',n:'Fontana delle Tartarughe',d:'Schildkrötenbrunnen auf der Piazza Mattei.',ll:[41.8938,12.4776],q:'Fontana delle Tartarughe, Roma',go:['walk',3]},
    {n:'Portico d’Ottavia',d:'Antike Säulenhalle mitten im Viertel.',ll:[41.8924,12.4786],q:'Portico d Ottavia, Roma',go:['walk',2]},
    {n:'Teatro di Marcello',d:'Sieht aus wie ein kleines Kolosseum.',ll:[41.8919,12.4797],q:'Teatro di Marcello, Roma',go:['walk',3]},
-   {t:'12:30',n:'Mittagessen im Jüdischen Viertel',d:'Via del Portico d’Ottavia. Carciofi alla giudia probieren. Noch reservieren.',ll:[41.8927,12.4779],k:'open',q:'Via del Portico d Ottavia, Roma',go:['walk',4]},
-   {t:'14:00',n:'Tiberinsel',d:'Über den Ponte Fabricio, die älteste Brücke Roms.',ll:[41.8907,12.4777],q:'Isola Tiberina, Roma',go:['walk',11]},
-   {t:'14:30',n:'Santa Maria in Trastevere',d:'Basilika mit goldenen Mosaiken, danach durch die Gassen.',ll:[41.8895,12.4697],q:'Basilica di Santa Maria in Trastevere, Roma',go:['walk',13]},
+   {t:'13:00',n:'Mittagessen im Jüdischen Viertel',d:'Via del Portico d’Ottavia. Carciofi alla giudia probieren. Noch reservieren.',ll:[41.8927,12.4779],k:'open',q:'Via del Portico d Ottavia, Roma',go:['walk',4]},
+   {t:'14:30',n:'Tiberinsel',d:'Über den Ponte Fabricio, die älteste Brücke Roms.',ll:[41.8907,12.4777],q:'Isola Tiberina, Roma',go:['walk',11]},
+   {t:'14:45',n:'Santa Maria in Trastevere',d:'Basilika mit goldenen Mosaiken.',ll:[41.8895,12.4697],q:'Basilica di Santa Maria in Trastevere, Roma',go:['walk',13]},
    {t:'15:30',n:'Fontana dell’Acqua Paola',d:'Auf halbem Weg bergauf. Alternative: Taxi hinauf.',ll:[41.8888,12.4641],q:'Fontana dell Acqua Paola, Roma',go:['walk',6]},
    {t:'16:00',n:'Gianicolo-Terrasse',d:'Der weiteste Blick über Rom. Sonnenuntergang ca. 16:40.',ll:[41.8915,12.4612],q:'Piazzale Giuseppe Garibaldi, Roma',go:['walk',14]},
    {t:'18:15',n:'Tonnarello',d:'Via della Paglia. Keine Reservierung, vor 19:00 dort sein. Davor Aperitivo in Trastevere.',ll:[41.88980,12.46930],q:'Tonnarello, Via della Paglia, Roma',go:['walk',15]},
    home('Abend','Zu Fuß über den Ponte Garibaldi oder mit der Tram 8 (Belli bis Arenula).')
   ]},
  {id:'mo', wd:'Mo', date:'7.12.', title:'Montag, 7. Dezember', sub:'Petersdom, Pantheon und Weihnachtsbeleuchtung',
-  note:'Früh am Petersdom sein lohnt sich: Vor 8 Uhr ist die Sicherheitskontrolle kurz. Mittags bleibt Zeit für eine Pause in der Unterkunft.',
+  note:'Früh am Petersdom, dann lange Mittagspause: Zwischen Vormittag und Pantheon bleiben gut vier Stunden Luft.',
   stops:[
    home('07:30','Taxi vom Largo Argentina. Alternativ Bus 40 oder 64.',['taxi',10]),
    {t:'07:45',n:'Petersdom',d:'Optional zuerst die Kuppel (ca. 1 Stunde), danach die Basilika. Eintritt frei, Schultern und Knie bedeckt.',ll:[41.9022,12.4545],q:'Basilica di San Pietro, Città del Vaticano',go:['walk',3]},
-   {t:'09:30',n:'Petersplatz',d:'Danach Kaffee im Borgo.',ll:[41.9022,12.4573],q:'Piazza San Pietro, Città del Vaticano',go:['walk',13]},
-   {t:'10:30',n:'Engelsbrücke',d:'Berninis Engel und der Blick auf die Engelsburg.',ll:[41.9018,12.4664],q:'Ponte Sant Angelo, Roma',go:['walk',5]},
-   {t:'11:00',n:'Via dei Coronari',d:'Ruhige Gasse mit Antiquitätenläden.',ll:[41.9008,12.4700],q:'Via dei Coronari, Roma',go:['walk',4]},
-   {t:'11:30',n:'Piazza Navona',d:'Bei Tageslicht, mit Weihnachtsmarkt. Mittagessen um 12:30 in der Nähe.',ll:[41.8990,12.4731],q:'Piazza Navona, Roma',go:['walk',10]},
-   home('13:30','Pause.',['walk',8]),
+   {t:'09:30',n:'Petersplatz',d:'Danach Kaffee im Borgo. Zurück mit Taxi oder Bus 40 bzw. 64.',ll:[41.9022,12.4573],q:'Piazza San Pietro, Città del Vaticano',go:['taxi',12]},
+   home('10:45','Freie Zeit und Mittagessen in der Nähe.',['walk',2]),
+   {n:'Largo di Torre Argentina',d:'Wer mag: Tempelruinen, der Ort von Caesars Ermordung und eine Katzenkolonie.',ll:[41.8953,12.4768],k:'opt',q:'Largo di Torre Argentina, Roma',go:['walk',6]},
+   {n:'Campo de’ Fiori',d:'Wer mag: Markt bis zum frühen Nachmittag.',ll:[41.8956,12.4722],k:'opt',q:'Campo de Fiori, Roma',go:['walk',5]},
+   home('Mittag','Pause vor dem Pantheon.',['walk',8]),
    {t:'15:00',n:'Pantheon',d:'Innenbesichtigung, 30–40 Minuten.',ll:[41.8986,12.4768],k:'fix',q:'Pantheon, Roma',go:['walk',15]},
    {t:'15:40',n:'Spanische Treppe',d:'Noch bei Tageslicht hinauf zur Kirche Trinità dei Monti.',ll:[41.9058,12.4823],q:'Piazza di Spagna, Roma',go:['walk',14]},
    via(41.9062,12.4836),
@@ -417,7 +421,7 @@ function fit(animate){
   map.resize();
   var b=new maplibregl.LngLatBounds();
   current.vis.forEach(function(s){ b.extend(lnglat(s.ll)); });
-  map.fitBounds(b,{padding:{top:38,bottom:38,left:38,right:66},maxZoom:16.5,duration:animate?600:0});
+  map.fitBounds(b,{padding:{top:46,bottom:58,left:42,right:66},maxZoom:16.5,duration:animate?600:0});
 }
 
 function select(s,fromMap){
